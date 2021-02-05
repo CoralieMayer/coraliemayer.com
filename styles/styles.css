@@ -81,15 +81,22 @@ small,
 
 /* Layout Styles */
 
-/*
+
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: darkkhaki;
+    width: 100vw;
 }
-*/
+
+.branding {
+    width: 50%;
+    background-color: blue;
+}
+
 
 .hero {
-    background-color: lightcoral 100%);
+    background-color: pink 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -97,6 +104,14 @@ small,
     justify-content: center;
 }
 
+.nav {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
 
 .nav-item {
     margin: 3rem 0 1.38rem;
@@ -107,6 +122,7 @@ small,
     display: flex;
     flex-direction: column;
     background-color: beige;
+
 }
 
 .hero-text {
@@ -115,7 +131,9 @@ small,
     font-size: 20em;
     line-height: 0.8;
     background-color: aquamarine;
-
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 .c-button {
@@ -129,12 +147,12 @@ small,
 }
 
 .project-container {
-    background: lightblue;
+    background-color: lightblue;
     min-height: 100vh;
 }
 
 .footer {
-    background: lightgreen;
+    background-color: lightgreen;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
