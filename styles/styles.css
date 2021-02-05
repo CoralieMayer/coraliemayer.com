@@ -96,7 +96,7 @@ small,
 
 
 .hero {
-    background-color: pink 100%);
+    background-color: pink;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
